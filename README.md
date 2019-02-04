@@ -1,4 +1,4 @@
-# CSC 301, Database Systems Notes (Fall, 2018)
+# CSC 301, Database Systems Notes (Spring 2019)
 ## Megan Squire, Elon University
 
 ### Table of Contents
