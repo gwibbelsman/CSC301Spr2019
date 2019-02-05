@@ -4,11 +4,11 @@
 ### Table of Contents
 #### Unit 1: Introduction to Databases
 
-* 1.0 [Basic concepts](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit1/1.0Notes.md)
-* 1.1 [Things we care about](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit1/1.1Notes.md)
-* 1.2 [Database vocabulary](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit1/1.2Notes.md)
-* 1.3 [Data types](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit1/1.3Notes.md)
-* 1.4 [Basic SQL commands](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit1/1.4Notes.md)
+* 1.0 [Basic concepts](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit1/1.0Notes.md)
+* 1.1 [Things we care about](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit1/1.1Notes.md)
+* 1.2 [Database vocabulary](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit1/1.2Notes.md)
+* 1.3 [Data types](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit1/1.3Notes.md)
+* 1.4 [Basic SQL commands](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit1/1.4Notes.md)
 
 <!--
 #### Unit 2: SQL: SELECT
