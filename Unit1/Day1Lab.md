@@ -12,7 +12,7 @@ I've set each of you up with a user account on the [Grid8 CS database server](ht
 On the left-hand pane, click into the database schema named after yourself. This is where you will do your work.
 
 ### 3. Create a new table 
-* Assume you are a veterinarian. Paste the following SQL `CREATE` statement into the `SQL` tab and press `Go` to run the command. 
+* Assume you are a veterinarian. The following SQL `CREATE` statement has been run for you to create your pets table: 
 ```sql
 CREATE TABLE `pets` (
   `petID` int(11) NOT NULL PRIMARY KEY,
@@ -27,7 +27,7 @@ CREATE TABLE `pets` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 ```
 * The table has the following characteristics:
-  * petID: this is a special number that refers to the pet individually (set this to be the Primary Key - DO NOT SKIP THIS STEP - choose "primary" from the "index" dropdown, accept all defaults - we will talk more about primary keys later in the class) 
+  * petID: this is a special number that refers to the pet individually 
   * petName: this is the pet's name, for example Fifi or Snuffles, 
   * birthdate (month, day, and year), 
   * petType (the only available choices are cat, dog, fish, reptile, chicken), 
