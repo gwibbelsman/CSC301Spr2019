@@ -32,5 +32,6 @@ UPDATE `pets` SET `sex` = 'm' WHERE `pets`.`petID` = 4;
 ALTER TABLE `pets` ADD `deathDate` DATE;
 ```
 * Here is the SQL that was run when we killed pet #3
+```sql
 UPDATE `pets` SET `deathDate` = '2018-01-31' WHERE `pets`.`petID` = 3;
 ```
