@@ -10,8 +10,8 @@ Then type your answers to today's lab questions:
 1. Write the SQL to show the country names and life expectancies for all countries with life expectancies below age 50. 
 1. Write the SQL to show countries and the year that they became independent. Exclude any country with a ```NULL``` value for independence.
 1. What about the countries that never became independent (where IndepYear ```IS NULL```)? Write a query to show the country name, the fact that their independence year is null, the form of government and who the ruler is.
-1. Sometimes it is tricky to deal with single quotes in data values. Special care must be taken with quotation marks. Write a query to find any data values in the HeadOfState column of the Country table that have a single quote in them. Write the query and give the name of the country (if any) in your answer.
-1. Write the SQL to show all known information about cities. (do not use the LIMIT keyword) You do not need to show the answers, just the SQL.
+1. Sometimes it is tricky to deal with single quotes in data values. Special care must be taken with quotation marks. Write a query to find any data values in the HeadOfState column of the Country table that have a single quote in them. Write the query and give the name of the head of state and country in your answer.
+1. Write the SQL to show all known information about cities. 
 1. Write the SQL to show the population and city name for the city called Kabul. 
 1. Write the SQL to show the population and city name for both Kabul and Qandahar. 
 1. Write the SQL to show the population, country code, and city name for all cities in Afghanistan (use country code AFG). 
