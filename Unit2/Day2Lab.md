@@ -18,6 +18,6 @@ Then type your answers to today's lab questions:
 1. Suppose we are interested in extreme minority official languages. These are official languages that are officially sanctioned by the government but have less than 10% of the population speaking them. Write a SQL query to show the language, the country code, and the percentage. Only show official languages.
 1. CHALLENGE: How old is this data? How can you use the data values themselves to reveal the age of the data set? (Hint: who is the US president?) Can you write a query to help prove your hypothesis about the age of the data?
 ## What to Turn In
-* Paste in your SQL answers in the ```Day2``` lab assignment area on Moodle. (You may also create a text file of the answers if you'd like to save it for your own use.)
+* Paste in your SQL answers in the ```Day2``` lab assignment area on Moodle, or upload your text file of the answers. Text files MUST have a .txt file extension.
 * Turn in as much as you were able to do. 
-* You can finish the rest on your own time so that you stay in sync with the rest of the class.
+* You can finish the rest on your own time - no need to turn it in - so that you stay in sync with the rest of the class.
