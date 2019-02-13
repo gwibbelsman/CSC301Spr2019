@@ -1,28 +1,28 @@
 # Day 4 Lab
 ## Purpose
-Practice with SQL functions, as shown in the [Unit 3 notes](https://github.com/megansquire/CSC301Fall2018#unit-3-sql-functions-and-additional-commands)
+Practice with SQL functions introduced in Unit 3.1-3.3
 
 ## What to do
 Open a text editor to create a .txt file to store your answers to the following questions.
 
 ### *World* database
 
-1. Write a SQL query to list each continent (Africa, North America, etc) in upper case, and show each region within that continent, and then count how many countries are in that region. Sort these in alphabetical order by continent and then by count. 
+1. Write a SQL query to list each continent (Africa, Asia, etc) in upper case, and show each region within that continent, and then count how many countries are in that region. Sort these in alphabetical order by continent and then by count. 
 
 Hint 1: write this query in pieces and add features as you go. For example, write the group by and make sure that works, then add the uppercasing.
 
-Hint 2: here is a screenshot of the results we want. Remember that \`Continent\` is an enum data type column. The sort order of an enum column is pre-specified in the table structure. If the order is not coming out how you want, remember that the screenshot below shows CAPITALIZED Continent names. How can capitalization change the "order by" clause?
-![q1](https://github.com/megansquire/CSC301Fall2018/blob/master/images/day4lab.0.png)
+Hint 2: here is a screenshot of the results we want. Remember that `Continent` is an `enum` data type column. The sort order of an `enum` column is pre-specified in the table structure. If the order is not coming out how you want, remember that the screenshot below shows CAPITALIZED Continent names. Think about this: why does capitalization change the `ORDER BY` results?
+![q1](https://github.com/megansquire/CSC301Spr2019/blob/master/images/day4lab.0.png)
 
 2. Construct a SQL query to list countries that have a country code that is the same as the first three letters of a country's name. For example, AFG = Afghanistan, and ALB = Albania. Hint: there are 76 results - only 76 countries have an abbreviation that is the SAME as the first three letters of its name. In your result, list the country name and the code.
 
 3. Construct a SQL query that will list the countries from largest to smallest by land area. Print them so that the answer looks like the result below, in a single column. Your result will have 239 rows, one for each country.
 
-![q3](https://github.com/megansquire/CSC301Fall2018/blob/master/images/day4lab.1.png)
+![q3](https://github.com/megansquire/CSC301Spr2019/blob/master/images/day4lab.1.png)
 
 ### *Employee* database
 
-4. Congratulations, you have been assigned to the birthday party planning committee for the company in the *Employee* database. Write the SQL to print out a list showing each month of the year (numbered 1-12) and count how many people have a birthday in that month. Put these in order by month (1-12).
+4. Congratulations, you have been assigned to the birthday party planning committee for the company in the `Employee` database. Write the SQL to print out a list showing each month of the year (numbered 1-12) and count how many people have a birthday in that month. Put these in order by month (1-12).
 
 5. Assuming you can feed 100 people with one extra large birthday cake, how many cakes will you need each month? Make sure you *round up* so no one gets left out of the cake-fest. Write SQL to show the month number, the number of birthdays that month, the number of cakes needed, and a calculation of the total cake budget (each extra large sheet cake costs $43.) Show this number with a dollar sign and commas for the thousands places (if needed), as follows:
 
@@ -52,4 +52,4 @@ Hint 2: here is a screenshot of the results we want. Remember that \`Continent\`
 * Your query should also produce the monthly price of the storage needed. For example, if you calculate that you have 5 GB of data, and each GB costs $10 to store, the total monthly storage price will be $50.
 
 ## What to turn in
-Turn in a file or paste your answers into the 'Day4' lab on Moodle. Turn in as many questions as you can, and work on the others outside of class for practice.
+Turn in a file or paste your answers into the 'Day4' lab on Moodle. Turn in as many questions as you can, and work on the others outside of class for practice!
