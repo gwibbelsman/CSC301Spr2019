@@ -25,24 +25,24 @@
     - 2.6.3 [Efficiency](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit2/2.6.3Notes.md)
     - 2.6.4 [HAVING](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit2/2.6.4Notes.md)
 
-<!--
 #### Unit 3: SQL: Functions and additional commands
-* 3.0 [SQL Functions](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit3/3.0Notes.md)
-* 3.1 [Date and time functions](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit3/3.1Notes.md)
-* 3.2 [String functions](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit3/3.2Notes.md)
-* 3.3 [Numeric functions](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit3/3.3Notes.md)
-* 3.4 Additional SQL commands: [Data Manipulation](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit3/3.4Notes.md)
+* 3.0 [SQL Functions](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit3/3.0Notes.md)
+* 3.1 [Date and time functions](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit3/3.1Notes.md)
+* 3.2 [String functions](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit3/3.2Notes.md)
+* 3.3 [Numeric functions](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit3/3.3Notes.md)
+* 3.4 Additional SQL commands: [Data Manipulation](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit3/3.4Notes.md)
     - 3.4.0 SELECT
     - 3.4.1 INSERT
     - 3.4.2 INSERT-SELECT
     - 3.4.3 UPDATE
     - 3.4.4 DELETE
-* 3.5 Additional SQL commands: [Data Definition](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit3/3.5Notes.md)
+* 3.5 Additional SQL commands: [Data Definition](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit3/3.5Notes.md)
     - 3.5.0 CREATE
     - 3.5.1 DROP
     - 3.5.2 ALTER
     - 3.5.3 RENAME
--->
+    - 3.5.4 TRUNCATE
+
 <!--
 #### Unit 4: SQL: Joins and Subqueries
 * 4.1 [What are joins for?](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit4/Unit4.1Notes.md)
