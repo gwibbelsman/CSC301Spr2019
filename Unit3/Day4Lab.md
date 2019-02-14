@@ -5,8 +5,6 @@ Practice with SQL functions introduced in Unit 3.1-3.3
 ## What to do
 Open a text editor to create a .txt file to store your answers to the following questions.
 
-[MySQL Documentation for date/time functions](https://dev.mysql.com/doc/refman/5.7/en/date-and-time-functions.html)
-
 [String functions documentation](https://dev.mysql.com/doc/refman/8.0/en/string-functions.html)
 
 [Date and Time functions](https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html)
