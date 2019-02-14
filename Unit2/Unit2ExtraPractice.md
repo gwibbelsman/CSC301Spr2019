@@ -37,9 +37,8 @@ FROM City;
 ```
 2. Write a query to find the City name and population for the city that has the highest population. Hint: you might need a LIMIT here.
 ```sql 
-SELECT Name, MAX(population) 
+SELECT Name, population
 FROM City
-GROUP BY 1 
 ORDER BY 2 DESC 
 LIMIT 1;
 ```
