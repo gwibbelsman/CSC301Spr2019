@@ -5,6 +5,15 @@ Practice with SQL functions introduced in Unit 3.1-3.3
 ## What to do
 Open a text editor to create a .txt file to store your answers to the following questions.
 
+[MySQL Documentation for date/time functions](https://dev.mysql.com/doc/refman/5.7/en/date-and-time-functions.html)
+
+[String functions documentation](https://dev.mysql.com/doc/refman/8.0/en/string-functions.html)
+
+[Date and Time functions](https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html)
+
+[Numeric functions](https://dev.mysql.com/doc/refman/8.0/en/numeric-functions.html)
+
+
 ### *World* database
 
 1. Write a SQL query to list each continent (Africa, Asia, etc) in upper case, and show each region within that continent, and then count how many countries are in that region. Sort these in alphabetical order by continent and then by count. 
@@ -34,7 +43,7 @@ Hint 2: here is a screenshot of the results we want. Remember that `Continent` i
 
 6. Which state **in the United States** has the most customers? Show the state with the highest count of customers.
 
-7. Imagine that we would eventually like to draw a graph of the number of invoices by month and year. Write the SQL that will yield the data needed to make this graph. Put the data result set in order by year and then month. Display the name of the month, but put them in the order that they appear in time (January comes before February, then March, etc. ). [MySQL Documentation for date/time functions](https://dev.mysql.com/doc/refman/5.7/en/date-and-time-functions.html)
+7. Imagine that we would eventually like to draw a graph of the number of invoices by month and year. Write the SQL that will yield the data needed to make this graph. Put the data result set in order by year and then month. Display the name of the month, but put them in the order that they appear in time (January comes before February, then March, etc. ). 
 
 8. Imagine you are a customer service representative. You answer the phone and the person complaining on the other end says his name, and you hear him say something like "Louis" for this first name. However, you run a SQL command to search for first names like Louis and nothing comes up. Write the SQL command to find all the customer details for a selection of names that might *sound like* Louis. Hint, it should match names like Luis, Luís, Lewis and even Lucas, but without specifically naming any of those names in the query. Another hint, check the [MySQL documentation](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html) for possible string functions to use...
 
