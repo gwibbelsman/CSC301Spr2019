@@ -35,7 +35,7 @@ Hint 2: here is a screenshot of the results we want. Remember that `Continent` i
 
 | Month | Birthdays | Cakes | Cake Budget| 
 |-------|-----------|-------|------------|
-| 1 | 25412 | 255 | $10,965.00 |
+| 1 | 25412 | 255 | $10,928.00 |
 
 ### *Music* database
 
