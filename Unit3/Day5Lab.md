@@ -27,4 +27,4 @@ Practice with functions, INSERT, UPDATE using the `sentiment140_orig` table.
 ![extracted URLs](https://github.com/megansquire/CSC301Spr2019/blob/master/images/day5Lab.6.png)
 
 ## What to turn in
-In Moodle, upload a text file with the commands you wrote for 4/5/6.
+In Moodle, upload a text file with the commands you wrote for 4, 5, and 6.
