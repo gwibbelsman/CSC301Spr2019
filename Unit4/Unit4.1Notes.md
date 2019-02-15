@@ -6,7 +6,7 @@ A SQL `JOIN` statement will allow us to connect these tables, using these common
 
 Below you will see the most common `JOIN` cheat sheet, and many students have reported seeing it in various cubicles during interviews, internships, or after they graduate.
 
-![SQL Join Venn Diagram](https://github.com/megansquire/CSC301Fall2018/blob/master/images/4.1.jpg?raw=true)
+![SQL Join Venn Diagram](https://github.com/megansquire/CSC301Spr2019/blob/master/images/4.1.jpg?raw=true)
 
 ### 4.1.1 Quick summary: How to Solve JOINs
 **Step 1**: Looking at the entity relationship diagram (ERD) for your database, identify the columns you need in the final output. (This will become your `SELECT` line.)
