@@ -2,7 +2,7 @@
 ## Goal
 Practice writing INNER JOINs using the employees database, and the ERD shown below.
 
-![employees database erd](https://github.com/megansquire/CSC301Fall2018/blob/master/images/day6lab.1.png)
+![employees database erd](https://github.com/megansquire/CSC301Spr2019/blob/master/images/day6lab.1.png)
 
 ## Questions
 * NOTE: not every query requires an `INNER JOIN`. 
