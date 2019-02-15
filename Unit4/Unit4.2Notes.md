@@ -99,10 +99,18 @@ ORDER BY 4 DESC;
 ### 4.2.4 Common INNER JOIN Errors
 
 1. JOINing on the wrong column. Just because two tables both have a column called *id* doesn't mean that's the column in common! Remember the column in common has to represent the **exact same data** in each table.
-1. Forgetting the `ON` statement, and just selecting from both tables. This will result in a "cartesian product" or `CROSS JOIN` between both the tables (all the rows in one table multiplied by all the rows in the second table). Sometimes we do want a CROSS JOIN (see section 4.4.4) but not always.
-1. If you have more than two tables in the `JOIN`, doing too few `JOIN` conditions will produce a semantic error. You must have at least n-1 `JOIN` conditions, where n is the number of tables in the statement. For example, if you have 3 tables that you need to connect together, you need to have 2 `JOIN` conditions.
+2. Forgetting the `ON` statement, and just selecting from both tables. This will result in a "cartesian product" or `CROSS JOIN` between both the tables (all the rows in one table multiplied by all the rows in the second table). Sometimes we do want a CROSS JOIN (see section 4.4.4) but not always.
+3. If you have more than two tables in the `JOIN`, doing too few `JOIN` conditions will produce a semantic error. You must have at least n-1 `JOIN` conditions, where n is the number of tables in the statement. For example, if you have 3 tables that you need to connect together, you need to have 2 `JOIN` conditions.
 
-### 4.2.5 Locating your ERD
+### 4.2.5 Foreign Keys
+
+Think of an example where in the child table, there is a column that points back to a value in the parent table. (Perhaps the  `CountryCode` column in `City` points back to the `Code` column in `Countries`?) This column in the child table is called the "foreign key". 
+
+Foreign keys enforce a simple rule: the data that you put into the child table *must* be already found in the parent table in order to be entered into the child table. 
+
+In other words, you can't enter a value of "XFT" as the `CountryCode` in `City` table unless a country with that value ("XFT") has *already* been entered in the `Countries` table.
+
+### 4.2.6 Locating your ERD
 Sometimes you can get an ERD from the Designer view of PhpMyAdmin:
 
 ![designer in phpmyadmin](https://github.com/megansquire/CSC301Spr2019/blob/master/images/4.6.png)
