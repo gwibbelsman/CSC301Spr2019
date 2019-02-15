@@ -16,13 +16,13 @@ FROM City;
 ```
 Which yields the following:
 
-![image of cities and country codes](https://github.com/megansquire/CSC301Fall2018/blob/master/images/4.2.png)
+![image of cities and country codes](https://github.com/megansquire/CSC301Spr2019/blob/master/images/4.2.png)
 
 But what does AFG mean? What is NLD? Without joins, we have to manually look up each *CountryCode* in the parent (Countries) table to see what it means. That's awkward.
 
 In the diagram (or ERD, for "entity relationship diagram") below, I have circled the columns in common between the three tables - these are now shown in red. These columns all contain the same type of data, the *CountryCode*. 
 
-![ERD for the world database](https://github.com/megansquire/CSC301Fall2018/blob/master/images/4.3.png)
+![ERD for the world database](https://github.com/megansquire/CSC301Spr2019/blob/master/images/4.3.png)
 
 Since we have columns in common between tables, we can `JOIN` on one or more of them in order to get the information we need in a single query:
 
@@ -46,7 +46,7 @@ FROM Country co
 INNER JOIN City c
 ON co.Code = c.CountryCode;
 ```
-![results from join command](https://github.com/megansquire/CSC301Fall2018/blob/master/images/4.4.png)
+![results from join command](https://github.com/megansquire/CSC301Spr2019/blob/master/images/4.4.png)
 
 In that example, the first column (labeled "City") comes from the *City* table, and the second column, labeled "Country", comes from the *Country* table. We used the "columns in common" *Code* and *CountryCode* to construct the `JOIN`, but we don't have to show that column in common if we don't want to. (And in this case, we chose not to show it.)
 
@@ -57,7 +57,7 @@ In the *Hotels* database, suppose we want to show each hotel name, as well as a 
 
 Sometimes an ERD will show lines between the tables, indicating which columns are in common. In the ERD below, the common columns are also shown colored.
 
-![ERD for the hotel database](https://github.com/megansquire/CSC301Fall2018/blob/master/images/4.5.png)
+![ERD for the hotel database](https://github.com/megansquire/CSC301Spr2019/blob/master/images/4.5.png)
 
 ```sql
 SELECT h.hname, count(hr.hno)
@@ -105,5 +105,5 @@ ORDER BY 4 DESC;
 ### 4.2.5 Locating your ERD
 Sometimes you can get an ERD from the Designer view of PhpMyAdmin:
 
-![designer in phpmyadmin](https://github.com/megansquire/CSC301Fall2018/blob/master/images/4.6.png)
+![designer in phpmyadmin](https://github.com/megansquire/CSC301Spr2019/blob/master/images/4.6.png)
 
