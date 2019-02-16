@@ -1,6 +1,6 @@
 # Day 6 Lab
 ## Goal
-Practice writing INNER JOINs using the employees database, and the ERD shown below.
+Practice writing INNER JOINs using the `employees` database, and the ERD shown below.
 
 ![employees database erd](https://github.com/megansquire/CSC301Spr2019/blob/master/images/day6lab.1.png)
 
