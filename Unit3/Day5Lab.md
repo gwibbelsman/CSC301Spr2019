@@ -10,6 +10,8 @@ Practice with functions, INSERT, UPDATE using the `sentiment140_orig` table.
 
 ![copy structure only](https://github.com/megansquire/CSC301Spr2019/blob/master/images/day5lab.2.png)
 
+! STOP ! At this point, you should have one table with 498 rows ('orig') and one empty table ('dates'). 
+
 3. Use the Structure tab within the PhpMyAdmin interface to modify this new, empty `sentiment140_dates` table so that the `date_of_tweet` column is a `datetime` data type (rather than `varchar`). Look at the ALTER command that was run for you. Handy!
 
 ![alter data type](https://github.com/megansquire/CSC301Spr2019/blob/master/images/day5lab.3.png)
