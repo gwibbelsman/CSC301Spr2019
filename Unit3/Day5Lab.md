@@ -1,18 +1,18 @@
 # Day 5 lab
 ## Purpose
-Practice with functions, INSERT, UPDATE using the `sentiment140_orig` table.
+Practice with functions, INSERT, UPDATE using the `sentiment140_orig` table inside the `sentiment140` database.
 ## What to do
-1. Make a copy of the `sentiment140_orig` table into your own database schema. Quick way to do this: Go to the Operations tab, then find the "copy" database section, then **change the schema** to the one named after yourself, keep the same table name, and press "go". (Don't worry about the "adjust privileges" checkbox; yours will be greyed out.)
+1. Make a copy of the `sentiment140_orig` **table** into your own database schema. Quick way to do this: Go to the Operations tab, then find the "copy" table section, then **change the schema** to the one named after yourself, keep the same table name, and press "go". (Don't worry about the "adjust privileges" checkbox; yours will be greyed out.)
 
 ![copy table](https://github.com/megansquire/CSC301Spr2019/blob/master/images/day5lab.1.png)
 
-2. Now make a new table, called `sentiment140_dates` that has the same structure as `sentiment140_orig` but is empty (no data). Quick way to do this: Go to the Operations tab, then copy the table but choose "structure only", and rename the table. (Don't worry about the "adjust privileges" checkbox; yours will be greyed out.)
+2. In your own schema, make a new table, called `sentiment140_dates` that has the same structure as `sentiment140_orig` but is empty (no data). Quick way to do this: Go to the Operations tab, then copy the table but choose "structure only", and rename the table. (Don't worry about the "adjust privileges" checkbox; yours will be greyed out.)
 
 ![copy structure only](https://github.com/megansquire/CSC301Spr2019/blob/master/images/day5lab.2.png)
 
-! STOP ! At this point, you should have one table with 498 rows ('orig') and one empty table ('dates'). 
+! STOP ! At this point, you should have one table with 498 rows ('orig') and one empty table ('dates') in your own schema. 
 
-3. Use the Structure tab within the PhpMyAdmin interface to modify this new, empty `sentiment140_dates` table so that the `date_of_tweet` column is a `datetime` data type (rather than `varchar`). Look at the ALTER command that was run for you. Handy!
+3. In your schema, use the Structure tab within the PhpMyAdmin interface to modify this new, empty `sentiment140_dates` table so that the `date_of_tweet` column is a `datetime` data type (rather than `varchar`). Look at the ALTER command that was run for you. Handy!
 
 ![alter data type](https://github.com/megansquire/CSC301Spr2019/blob/master/images/day5lab.3.png)
 
