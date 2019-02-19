@@ -2,7 +2,7 @@
 ## Purpose
 Practice with functions, INSERT, UPDATE using the `sentiment140_orig` table.
 ## What to do
-1. Make a copy of the `sentiment140_orig` table into your own database schema. Quick way to do this: Go to the Operations tab, then find the "copy" database section, then **change the schema** to the one named after yourself, keep the same table name, and press "go".
+1. Make a copy of the `sentiment140_orig` table into your own database schema. Quick way to do this: Go to the Operations tab, then find the "copy" database section, then **change the schema** to the one named after yourself, keep the same table name, and press "go". (Don't worry about the "adjust privileges" checkbox; yours will be greyed out.)
 
 ![copy table](https://github.com/megansquire/CSC301Spr2019/blob/master/images/day5lab.1.png)
 
