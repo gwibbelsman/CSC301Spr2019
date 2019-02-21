@@ -6,7 +6,7 @@ Practice writing INNER JOINs using the `employees` database, and the ERD shown b
 
 ## Questions
 * NOTE: not every query requires an `INNER JOIN`. 
-* NOTE 2: Be careful of over-matching the "columns in common". For example, the *to_date* and *from_date* columns appear in many tables, but because these aren't usually part of the PK (primary key, or "unique identifier") of any table, they probably aren't good candidates for "column in common". Better choices for columns in common will be *emp_no* and *dept_no*.
+* NOTE 2: Be careful of over-matching the "columns in common". For example, the *to_date* and *from_date* columns appear in many tables, but because these aren't usually part of the PK (primary key, or "unique identifier") of any table, they probably aren't good candidates for "column in common". Better choices for columns in common will be *emp_no* for employees and *dept_no* for departments.
 
 1. Write the SQL to print out every employee's first name, last name, gender, and job title. Put them in alphabetical order by last name, then first name, then job title. (Remember that it's ok that an employee may have had many job titles. Maybe she got promoted!) 
 2. Write the SQL to print out every employee's first name, last name, gender, job title, and salary history (dollar figures are sufficient). Put them in alphabetical order by last name, first name, title, then salary. NOTE: this query took a few seconds to run, so be patient. 
