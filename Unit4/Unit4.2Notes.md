@@ -41,7 +41,7 @@ ON c.CountryCode = co.Code;
 ```
 You can also flip the order of the tables:
 ```sql
-SELECT City.CityName as 'City Name', Country.CountryName as 'Country Name'
+SELECT c.CityName as 'City Name', co.CountryName as 'Country Name'
 FROM Country co
 INNER JOIN City c
 ON co.Code = c.CountryCode;
