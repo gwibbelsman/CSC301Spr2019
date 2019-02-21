@@ -34,7 +34,7 @@ ON City.CountryCode = Country.Code;
 ```
 Another way to write this query using table aliases:
 ```sql
-SELECT City.CityName as 'City Name', Country.CountryName as 'Country Name'
+SELECT c.CityName as 'City Name', co.CountryName as 'Country Name'
 FROM City c
 INNER JOIN Country co
 ON c.CountryCode = co.Code;
