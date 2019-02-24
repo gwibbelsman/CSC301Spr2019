@@ -13,11 +13,14 @@ Use the `recipe` database to practice with INNER and OUTER joins.
 ## Questions
 1. Write the SQL to show each recipe class (Dessert, Hors D'Oeuvres, etc), and the count of recipes in that class. Do **not** show classes that have no recipes. Hint: you should see 6 rows returned.
 
-2. Write the SQL to show every recipe that uses some kind of pepper. Show the recipe title and amount of pepper used. (We are interested in the SPICE 'pepper' not the vegetable 'green pepper', so make sure you only show the spices. Use the `ingredientClassDescription` to do this.) Also, write your query so that you DO NOT assume you know the `ingredientID` for any kind of 'pepper', and DO NOT assume you know the `ingredientClassID` for 'spice'. Hint: there will be about 8 recipes and 3 different kinds of pepper used in them.
+2. Write the SQL to show every recipe that uses some kind of pepper. Show the recipe title and amount of pepper used. (We are interested in the SPICE 'pepper' not the vegetable 'green pepper', so make sure you only show the spices. Use the `ingredientClassDescription` to do this.) Also, write your query so that you DO NOT assume you know the `ingredientID` for any kind of 'pepper', and DO NOT assume you know the `ingredientClassID` for 'spice'. 
+> Hint: there will be about 8 recipes and 3 different kinds of pepper used in them.
 
-3. Show each recipe class description, recipe id, and recipe title. Show the classes **even if** there are no recipes from that class. (Hint: Your results should demonstrate that there are no recipes in the Soup class.)
+3. Show each recipe class description, recipe id, and recipe title. Show the classes **even if** there are no recipes from that class. 
+> Hint: Your results should demonstrate that there are no recipes in the Soup class.
 
-4. Show each recipe class and the count of recipes in that class. Show the class descriptions **even if** there are no recipes from that class. (Hint: You should have 7 records. Compare this approach to #1 above.)
+4. Show each recipe class and the count of recipes in that class. Show the class descriptions **even if** there are no recipes from that class. 
+> Hint: You should have 7 records. Compare this approach to #1 above.
 
 5. Show each ingredient name and a count of how many times it was used in any recipe. For example, salt is used in 8 recipes. Show ingredients **even if** they were never used in a recipe. Sort the results in order of the count, from high to low.
 
@@ -25,13 +28,14 @@ Use the `recipe` database to practice with INNER and OUTER joins.
 
 7. Write the SQL to find out the answer to: "if we added the total amount of pepper used in every recipe, how much pepper would we have used?" (Show the ingredients, total, and measurement method 'tsp','ounce' etc) DO NOT assume you know the ingredient ID for any kind of pepper.
 
-8. Imagine you want to make every recipe in the Dessert class. Write the SQL to print the class description ("Dessert"), recipe title, and ingredient list, including ingredient name, the amount used in that recipe, and the way that ingredient is measured (measurement\_description). NOTE: you will have multiple lines for each recipe, but only 2 recipes overall.
+8. Imagine you want to make every recipe in the Dessert class. Write the SQL to print the class description ("Dessert"), recipe title, and ingredient list, including ingredient name, the amount used in that recipe, and the way that ingredient is measured (measurement\_description). 
+> NOTE: you will have multiple lines for each recipe, but only 2 recipes overall.
 
 9. Write the SQL to only find recipes in which there is no 'notes' field filled in. Show the Recipe Title, Recipe class description.
 
 10. Write SQL to show the recipe class description, recipe name, ingredient names, ingredient step numbers, ingredient quantities and ingredient measurements for every recipe, sorted in class, title, and step number sequence.
 
-11. List every ingredient by name, and a number indicating how many times this ingredient is used across all recipes. (Only show ingredients that are used at least once, and put them in order high to low and then in alpha order by ingredient name.)
+11. List every ingredient by name, and a number indicating how many times this ingredient is used across all recipes. Only show ingredients that are used at least once, and put them in order high to low and then in alpha order by ingredient name.
 
 > QUESTION FOR PONDERING: See how this query only returns 59 rows? Yet there are 79 ingredients listed in the ingredients table. So why does this query only return 59 of them? 
 
