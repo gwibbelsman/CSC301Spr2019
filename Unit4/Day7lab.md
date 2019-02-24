@@ -35,4 +35,5 @@ Use the `recipe` database to practice with INNER and OUTER joins.
 
 > QUESTION FOR PONDERING: See how this query only returns 59 rows? Yet there are 79 ingredients listed in the ingredients table. So why does this query only return 59 of them? 
 
-12. Show the measurement amount descriptions that are *never* used in the ingredients table. For example, measurement id 6 is "Pinch" which has never been used as an ingredient measurement amount. Hint: use the [JOINs Venn diagram](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit4/Unit4.1Notes.md) to find which query to use
+12. Show the measurement amount descriptions that are *never* used in the ingredients table. For example, measurement id 6 is "Pinch" which has never been used as an ingredient measurement amount. 
+> Hint: use the [JOINs Venn diagram](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit4/Unit4.1Notes.md) to find which query to use
