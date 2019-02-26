@@ -14,7 +14,7 @@ Use the `recipe` database to practice with INNER and OUTER joins.
 1. Write the SQL to show each recipe class (Dessert, Hors D'Oeuvres, etc), and the count of recipes in that class. Do **not** show classes that have no recipes. 
 > Hint: you should see 6 rows returned.
 
-2. Write the SQL to show every recipe that uses some kind of pepper. Show the recipe title and amount of pepper used. (We are interested in the SPICE 'pepper' not the vegetable 'green pepper', so make sure you only show the spices. Use the `ingredientClassDescription` to do this.) Also, write your query so that you DO NOT assume you know the `ingredientID` for any kind of 'pepper', and DO NOT assume you know the `ingredientClassID` for 'spice'. 
+2. Write the SQL to show every recipe that uses some kind of pepper. Show the recipe title, ingredient name, and amount of pepper used. (We are interested in the SPICE 'pepper' not the vegetable 'green pepper', so make sure you only show the spices. Use the `ingredientClassDescription` to do this.) Also, write your query so that you DO NOT assume you know the `ingredientID` for any kind of 'pepper', and DO NOT assume you know the `ingredientClassID` for 'spice'. 
 > Hint: there will be about 8 recipes and 3 different kinds of pepper used in them.
 
 3. Show each recipe class description, recipe id, and recipe title. Show the classes **even if** there are no recipes from that class. 
