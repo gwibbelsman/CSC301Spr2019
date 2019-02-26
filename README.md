@@ -52,7 +52,6 @@
     - 4.2.3 [Selecting from Three+ Tables](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit4/Unit4.2Notes.md#423-inner-join-example-3-selecting-from-three-tables)
     - 4.2.4 [Common JOIN Errors](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit4/Unit4.2Notes.md#424-common-inner-join-errors)
     - 4.3.5 [Locating an ERD](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit4/Unit4.2Notes.md#425-locating-your-erd) inside PhpMyAdmin
-<!--
 * 4.3 [OUTER JOIN](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit4/Unit4.3Notes.md)
     - 4.3.1 [Simple Example](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit4/Unit4.3Notes.md#431-outer-join-example-1-simple)
     - 4.3.2 [Adding an Aggregate Function](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit4/Unit4.3Notes.md#432-outer-join-example-2-adding-an-aggregate)
@@ -61,6 +60,7 @@
     - 4.4.2 [NATURAL JOIN](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit4/Unit4.4Notes.md#442-natural-join)
     - 4.4.3 [Theta vs. ANSI Style](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit4/Unit4.4Notes.md#443-theta-vs-ansi-style)
     - 4.4.4 [CROSS JOIN](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit4/Unit4.4Notes.md#444-cross-join)
+<!--
 * 4.5 [Subqueries](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit4/Unit4.5Notes.md)
     - 4.5.1 [Correlated vs. Non-Correlated](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit4/Unit4.5Notes.md#451-correlated-vs-non-correlated-subqueries)
     - 4.5.2 [Things to know about Subqueries](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit4/Unit4.5Notes.md#452-things-to-know-about-subqueries)
