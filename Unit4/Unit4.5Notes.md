@@ -12,16 +12,16 @@ With non-correlated subqueries, the entire subquery is run first, and then the o
 
 ##### Non-correlated Example 1
 ```sql
-SELECT City.CityName, Country.CountryName, City.Population
-FROM City
-INNER JOIN Country  ON City.CountryCode = Country.Code
-WHERE City.Population = (SELECT max(Population) FROM City);
+SELECT c.CityName, co.CountryName, c.Population
+FROM City c
+INNER JOIN Country co ON c.CountryCode = co.Code
+WHERE c.Population = (SELECT max(Population) FROM City);
 ```
 This *might* give results equivalent to the following. We say *might* because we have to assume there were not two cities with the exact same population (a "tie"):
 ```sql
-SELECT City.CityName, Country.CountryName, City.Population
-FROM City
-INNER JOIN Country  ON City.CountryCode = Country.Code
+SELECT c.CityName, co.CountryName, c.Population
+FROM City c
+INNER JOIN Country co ON c.CountryCode = co.Code
 ORDER BY 3 DESC
 LIMIT 1;
 ```
@@ -30,15 +30,15 @@ LIMIT 1;
 ##### Non-correlated Example 2
 "Tell me about the Cities with SurfaceArea that are greater than the surface area of the largest English-speaking City"
 ```sql
-SELECT City.CityName, Country.CountryName, City.SurfaceArea
-FROM City
-INNER JOIN Country ON City.CountryCode = Country.Code
-WHERE City.SurfaceArea > 
- (SELECT max(City.SurfaceArea) 
-  FROM City 
-  INNER JOIN Country ON City.CountryCode = Country.Code 
-  INNER JOIN CountryLanguage ON Country.Code = CountryLanguage.CountryCode   
-  WHERE CountryLanguage.Language = 'English');
+SELECT c.CityName, co.CountryName, c.SurfaceArea
+FROM City c
+INNER JOIN Country co ON c.CountryCode = co.Code
+WHERE c.SurfaceArea > 
+ (SELECT max(c1.SurfaceArea) 
+  FROM City c1
+  INNER JOIN Country co1 ON c1.CountryCode = co1.Code 
+  INNER JOIN CountryLanguage cl ON co1.Code = cl.CountryCode   
+  WHERE cl.Language = 'English');
 ```
 ##### Non-correlated Example 3
 "Count all the languages for each country, and give me the country with the most languages"
@@ -53,6 +53,41 @@ SELECT MAX(innerTable.num) AS num
     ) AS innerTable
 ```
 Couldn't this be done with a count, ORDER BY, and LIMIT?
+
+##### Non-correlated Example 4
+This is from one of my own research databases of social media data:
+```sql
+SELECT
+p.personID, 
+p.wholeName,
+concat("https://facebook.com/",p.realfbid),
+GROUP_CONCAT(DISTINCT e.entityName ORDER BY e.entityName SEPARATOR ', ') Groups
+FROM fb_people p
+INNER JOIN fb_peopleTrove pt
+  ON p.personID = pt.personID
+INNER JOIN fb_collections c
+  ON c.collectionID = pt.collectionID
+INNER JOIN fb_entities e
+  ON c.entityID = e.entityID
+WHERE p.personid in (SELECT personid 
+                     FROM fb_peopleTrove 
+                     WHERE collectionid = 6 AND role='going')
+GROUP BY 1,2
+ORDER BY p.wholeName, p.realfbID
+```
+##### Non-correlated Example 5
+This is another one from my own research database:
+```sql
+SELECT foo.primaryIdeology, avg(foo.mymax)
+FROM (
+      SELECT c1.entityid, epi.primaryIdeology, max(c1.calcPeopleCount) as 'mymax'
+      FROM fb_collections c1
+      INNER JOIN fb_entityPrimaryIdeology epi
+        ON c1.entityid = epi.entityID
+        GROUP BY 1,2
+    ) as foo
+    GROUP BY 1
+```
 
 #### 4.5.1.2 Correlated subqueries
 Correlated subqueries are a little harder. These are when the columns inside the subquery are also in the outside query.
