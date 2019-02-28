@@ -30,15 +30,15 @@ LIMIT 1;
 ##### Non-correlated Example 2
 "Tell me about the Cities with SurfaceArea that are greater than the surface area of the largest English-speaking City"
 ```sql
-SELECT c.CityName, co.CountryName, c.SurfaceArea
+SELECT c.CityName, co.CountryName, co.SurfaceArea
 FROM City c
 INNER JOIN Country co ON c.CountryCode = co.Code
-WHERE c.SurfaceArea > 
- (SELECT max(c1.SurfaceArea) 
+WHERE co.SurfaceArea > 
+ (SELECT max(co1.SurfaceArea) 
   FROM City c1
   INNER JOIN Country co1 ON c1.CountryCode = co1.Code 
-  INNER JOIN CountryLanguage cl ON co1.Code = cl.CountryCode   
-  WHERE cl.Language = 'English');
+  INNER JOIN CountryLanguage cc ON co1.Code = cc.CountryCode   
+  WHERE cc.SpokenLanguage = 'English')
 ```
 ##### Non-correlated Example 3
 "Count all the languages for each country, and give me the country with the most languages"
