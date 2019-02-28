@@ -60,11 +60,11 @@
     - 4.4.2 [NATURAL JOIN](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit4/Unit4.4Notes.md#442-natural-join)
     - 4.4.3 [Theta vs. ANSI Style](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit4/Unit4.4Notes.md#443-theta-vs-ansi-style)
     - 4.4.4 [CROSS JOIN](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit4/Unit4.4Notes.md#444-cross-join)
-<!--
+
 * 4.5 [Subqueries](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit4/Unit4.5Notes.md)
     - 4.5.1 [Correlated vs. Non-Correlated](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit4/Unit4.5Notes.md#451-correlated-vs-non-correlated-subqueries)
     - 4.5.2 [Things to know about Subqueries](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit4/Unit4.5Notes.md#452-things-to-know-about-subqueries)
--->
+
 <!--
 #### Unit 5: Database Design
 * 5.0 [What is database design?](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.0Notes.md)
