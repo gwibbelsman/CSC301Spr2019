@@ -140,7 +140,7 @@ What makes this a correlated subquery is that the inner queries use a column `em
 
 Here are the first few rows of the result:
 
-![salary](https://github.com/megansquire/CSC301Fall2018/blob/master/images/4.7.png)
+![salary](https://github.com/megansquire/CSC301Spr2019/blob/master/images/4.7.png)
 
 ### 4.5.2 Things to know about subqueries:
 
