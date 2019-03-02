@@ -65,23 +65,12 @@
     - 4.5.1 [Correlated vs. Non-Correlated](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit4/Unit4.5Notes.md#451-correlated-vs-non-correlated-subqueries)
     - 4.5.2 [Things to know about Subqueries](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit4/Unit4.5Notes.md#452-things-to-know-about-subqueries)
 
-<!--
+
 #### Unit 5: Database Design
-* 5.0 [What is database design?](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.0Notes.md)
-    - 5.0.1 [Where does database design fit in?](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.0Notes.md#501-where-does-database-design-fit-in)
-    - 5.0.2 [Values of database design](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.0Notes.md#502-values-of-database-design)
-* 5.1 [Entity-Relationship Diagrams](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md)
-    - Step 1: [Decide what tables we need](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#step-1-decide-what-tables-we-need)
-    - Step 2: [Add columns and select primary keys](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#step-2-add-columns-and-select-primary-keys)
-        * [Characteristics of a primary key](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#characteristics-of-primary-keys)
-        * [Uniqueness of a primary key](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#uniqueness-of-primary-keys)
-        * [Primary key vocabulary](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#primary-key-vocabulary)
-        * [Primary key utility](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#utility-of-a-primary-key)
-        * [Practice with primary keys](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#practice-with-primary-keys)
-        * [Candidate keys](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#candidate-keys)
-    - Step 3: [Add relationship lines on ERD](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#step-3-add-the-relationship-lines-on-an-erd)
-    - Step 4: [Add cardinalities to each relationship](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#step-4-adding-cardinalities-to-each-relationship)
-    - Step 5: [Sanity-Check the ERD](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#step-5-sanity-check-make-sure-the-erd-makes-sense-in-english)
+* 5.0 [What is database design?](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit5/Unit5.0Notes.md)
+* 5.1 [Entity-Relationship Diagrams](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit5/Unit5.1Notes.md)
+
+<!--
 * 5.2 [Using MySQL Workbench for Database Design](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.2Notes.md)
     - 5.2.1 [Setting up MySQL Workbench](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.2Notes.md#521-setting-up-mysql-workbench)
     - 5.2.2 [Using MySQL Workbench to create ERDs](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.2Notes.md#522-using-mysql-workbench-to-create-erds)
