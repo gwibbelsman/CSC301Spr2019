@@ -22,4 +22,4 @@ Remember our list of Database Values from Unit 1. Our values as designers are ar
 * Our designs should strive for **efficiency**,
 * Our designs should strive for **maintainability** into the future (we should plan ahead for growth and changes),
 * Our designs should **reduce the possibility of error** in data entry, and
-* Our designs should let the database do what it is good at. For example, if the database can, within reason, support our business logic and rules, then we should take advantage of that. 
+* Our designs should let the database do what it is good at. If the database can, within reason, support our business logic and rules, then we should take advantage of that. 
