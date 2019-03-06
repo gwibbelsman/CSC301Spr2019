@@ -1,6 +1,6 @@
 # Day 9 lab answers
 
-[day 9 answer PDF](https://github.com/megansquire/CSC301Spr2019/blob/master/images/9.pdf)
+[day 9 answer PDF](https://github.com/megansquire/CSC301Spr2019/blob/master/images/day9.pdf)
 
 ## States and Students
 In the first question, a given state code can be represented in the students table 0 or many times. Each student must have a state listed that is found in the states table 1 and only 1 time. In this scenario, states is the parent or lookup table, and students is the "child" table.
