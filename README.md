@@ -69,10 +69,7 @@
 #### Unit 5: Database Design
 * 5.0 [What is database design?](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit5/Unit5.0Notes.md)
 * 5.1 [Entity-Relationship Diagrams](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit5/Unit5.1Notes.md)
-* 5.2 [Using MySQL Workbench for Database Design](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.2Notes.md)
-    - 5.2.1 [Setting up MySQL Workbench](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.2Notes.md#521-setting-up-mysql-workbench)
-    - 5.2.2 [Using MySQL Workbench to create ERDs](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.2Notes.md#522-using-mysql-workbench-to-create-erds)
-    - 5.2.3 [Forward-Engineering ERDs](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.2Notes.md#523-using-mysql-workbench-to-forward-engineer-an-erd)
+* 5.2 [Using MySQL Workbench for Database Design](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit5/Unit5.2Notes.md)
 <!--
 * 5.3 [Database Normalization](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.3Notes.md)
 * 5.4 [Indexes](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.4Notes.md)
