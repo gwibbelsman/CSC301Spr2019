@@ -9,7 +9,7 @@ You have been hired by the Hogwarts School of Witchcraft and Wizardry as a Junio
 ### Question 1: Professor Lupin's Patronus Database
 
 Professor Lupin needs to keep track of students (name, school entry date, email, magical cell phone number), as well as what their ["patronus"](https://www.pottermore.com/features/what-is-a-patronus) is. 
-* A patronus is a special animal shape that wizards can conjure as a form of protection, for example a patronus might take the shape of a deer or a turtle.) For each patronus, we need to track its description (dog, cat, etc) and a URL that points to a picture of the animal. 
+* A patronus is a special animal shape that wizards can conjure as a form of protection, for example a patronus might take the shape of a deer or a turtle. For each patronus, we need to track its description (dog, cat, etc) and a URL that points to a picture of the animal. 
 * Multiple students can have the same patronus (for example, two students might both have a dog patronus). 
 * Each student only has one patronus at a time, but may have multiple over their lifetimes. We want to keep track of this progression of students and patronuses (patroni?). 
 * Sadly, some students never master the patronus charm, and thus these students do not have a patronus. Our database should support this situation as well.
