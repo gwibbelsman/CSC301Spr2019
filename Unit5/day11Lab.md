@@ -12,6 +12,7 @@ Professor Lupin needs to keep track of students (name, school entry date, email,
 * A patronus is a special animal shape that wizards can conjure as a form of protection, for example a patronus might take the shape of a deer or a turtle. For each patronus, we need to track its description (dog, cat, etc) and a URL that points to a picture of the animal. 
 * Multiple students can have the same patronus (for example, two students might both have a dog patronus). 
 * Each student only has one patronus at a time, but may have multiple over their lifetimes. We want to keep track of this progression of students and patronuses (patroni?). 
+* Not every patronus has a student who has mastered it. Some may be very rare and special.
 * Sadly, some students never master the patronus charm, and thus these students do not have a patronus. Our database should support this situation as well.
 
 Create an ERD showing a database design to support these requirements. Save it as a PDF file.
