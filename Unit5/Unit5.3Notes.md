@@ -12,7 +12,7 @@ A table (relation) is in "first normal form" (1NF) when it meets two criteria:
 #### 1NF Example 1: phone numbers
 Here is a relation that is NOT in 1NF (it violates the 2nd criterion about multi-value attributes). [Example from Wikipedia](https://en.wikipedia.org/wiki/First_normal_form)
 
-![1nf violation 5.19](https://github.com/megansquire/CSC301Fall2018/blob/master/images/5.19.png)
+![1nf violation 5.19](https://github.com/megansquire/CSC301Spr/blob/master/images/5.19.png)
 
 How to fix and put the relation into 1NF:
 
@@ -27,6 +27,9 @@ Note that the relation does have unique rows, but they're just very duplicative.
 #### 1NF Example 3: managers and workers
 
 ![1nf violation 5.22](https://github.com/megansquire/CSC301Fall2018/blob/master/images/5.22.png)
+
+#### 1NF Example 4: dogs and owners
+
 
 ### 5.3.2 Second Normal Form (2NF)
 A table is in second normal form (2NF) when it meets the definition of 1NF, plus, the following criterion:
