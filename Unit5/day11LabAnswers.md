@@ -25,7 +25,7 @@ This one is basically the same as the previous question, but it is worded differ
 
 In the diagram below, the headsOfHouse columns in the teachers table are all nullable.
 
-![q4a.png](https://github.com/megansquire/CSC301Spr2019/blob/master/images/hogwarts.q4.png)
+![q4a.png](https://github.com/megansquire/CSC301Spr2019/blob/master/images/hogwarts.q4a.png)
 
 Here is an alternate partial diagram showing how to divide the teachers and heads of house into a 1:1 relationship. As described in [Unit 5.1 notes](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.1Notes.md#step-4-adding-cardinalities-to-each-relationship), 1:1 relationships are very rare.
 
