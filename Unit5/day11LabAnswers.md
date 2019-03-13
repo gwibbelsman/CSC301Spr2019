@@ -6,19 +6,24 @@ The trick with this one is realizing that a student can have more than one patro
 
 ![q1.png](https://github.com/megansquire/CSC301Spr2019/blob/master/images/hogwarts.q1.png)
 
+> Another way to do the junction table here would be to NOT have a composite key, but instead create a synthetic key, then just have the two parent columns-in-common (student_id and patronus_id) as foreign keys back to their respective parent tables. In such a version of the diagram, the two parent tables stay exactly the same. 
+
 ## Question 2: Professor McGonagal's Human Transfiguration Database
 
 This one is basically the same as the previous question, but it is worded differently.
 
 ![q2.png](https://github.com/megansquire/CSC301Spr2019/blob/master/images/hogwarts.q2.png)
 
+> Another way to do the junction table here would be to NOT have a composite key, but instead create a synthetic key, then just have the two parent columns-in-common (student_id and animal_id) as foreign keys back to their respective parent tables. In such a version of the diagram, the two parent tables stay exactly the same.
+
 ## Question 3: Professor Snape's Test Database
 
 ![q3.png](https://github.com/megansquire/CSC301Spr2019/blob/master/images/hogwarts.q3.png)
+> Here we have three basic nouns: students, tests, and questions. A test can have many questions, and a question can be on many tests, so we create a junction table (test_questions) to support this M:N relationship. The relationship between students and test_questions is similar. A student can answer many test_questions, and each test_question can be answered by many students, thus a junction table is created to store these. The PK of this table is the unique combination of a student, test, and question.
 
 ## Question 4: Sorting Hat's Dormitory Database
 
-Note that here, the headsOfHouse columns in the teachers table are all nullable.
+In the diagram below, the headsOfHouse columns in the teachers table are all nullable.
 
 ![q4.png](https://github.com/megansquire/CSC301Spr2019/blob/master/images/hogwarts.q4.png)
 
