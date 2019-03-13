@@ -30,6 +30,7 @@ Note that the relation does have unique rows, but they're just very duplicative.
 
 #### 1NF Example 4: dogs and owners
 
+![1nf violation 5.44](https://github.com/megansquire/CSC301Spr2019/blob/master/images/5.44.png)
 
 ### 5.3.2 Second Normal Form (2NF)
 A table is in second normal form (2NF) when it meets the definition of 1NF, plus, the following criterion:
