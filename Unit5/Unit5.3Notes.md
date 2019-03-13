@@ -53,17 +53,14 @@ The current PK is a composite key made up of `RoomNum` and `Block`. The `RoomPho
 
 The solution is to split rooms into their own table, remove `RoomPhoneNum` from this table. `RoomNum` can be a foreign key (column in common) back to the other table.
 
-#### 5.3.2.2 2NF Example 2: electric toothbrushes and manufacturers
-In this example, the `Manufacturer_Country` column is only dependent upon part of the PK: the `manufacturer` column. [image credit](https://www.slideshare.net/samyig/normal-forms-67127011)
-
-![2nf violation 5.25](https://github.com/megansquire/CSC301Spr2019/blob/master/images/5.25.png)
-
-The solution is to remove manufacturer information to its own table, and remove `country` from this table. `Manufacturer` can be a foreign key (column in common) back to that other table.  (BTW, the same problem exists with `model` and `model name`. Same solution applies.)
-
-#### 5.3.2.3 2NF Example 3: yoga poses and playlists
-In this example, we have a relation that has a synthetic primary key, called `ID`. However, there is also another candidate key, comprised of: `playlist_id`, `order`, `pose_id`. The table violates 2NF because `pose_name` is dependent on only one column of that candidate key (`pose_name` is dependent on `pose_id`).
+#### 5.3.2.2 2NF Example 2: yoga poses and playlists
+In this example, we have a relation that has a synthetic primary key, called `ID`. However, there is also another candidate key, comprised of: `playlist_id`, `order`, `pose_id`. The table violates 2NF because `pose_name` is dependent on only one column of that candidate key (`pose_name` is dependent on/determined by `pose_id`).
 
 ![2nf violation 5.26](https://github.com/megansquire/CSC301Spr2019/blob/master/images/5.26.png)
+
+#### 5.3.2.2 2NF Example 3: dogs and owners
+
+![2nf violation 5.45](https://github.com/megansquire/CSC301Spr2019/blob/master/images/5.45.png)
 
 ### 5.3.3 Third Normal Form (3NF)
 A table (relation) is in third normal form (3NF) when it meets the definition of 2NF, plus, the following criterion:
