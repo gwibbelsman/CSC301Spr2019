@@ -70,8 +70,8 @@
 * 5.0 [What is database design?](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit5/Unit5.0Notes.md)
 * 5.1 [Entity-Relationship Diagrams](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit5/Unit5.1Notes.md)
 * 5.2 [Using MySQL Workbench for Database Design](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit5/Unit5.2Notes.md)
+* 5.3 [Database Normalization](https://github.com/megansquire/CSC301Spr2019/blob/master/Unit5/Unit5.3Notes.md)
 <!--
-* 5.3 [Database Normalization](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.3Notes.md)
 * 5.4 [Indexes](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.4Notes.md)
 * 5.5 [Views](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.5Notes.md)
     - 5.5.1 [What are views?](https://github.com/megansquire/CSC301Fall2018/blob/master/Unit5/Unit5.5Notes.md#551-what-are-views)
