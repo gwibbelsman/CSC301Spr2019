@@ -59,8 +59,8 @@ The solution is to split rooms into their own table, remove `RoomPhoneNum` from 
 
 #### 5.3.2.3 2NF Example 3: pirates and ships
 ![2nf violation 5.46](https://github.com/megansquire/CSC301Spr2019/blob/master/images/5.46.png)
-Here we have two candidate keys: the combination of pirate id and ship id, or the combination of pirate name and ship name. Ship length is dependent on ship id or ship name, and thus we have a 2NF violation.
 
+Here we have two candidate keys: the combination of pirate id and ship id, or the combination of pirate name and ship name. Ship length is dependent on ship id or ship name, and thus we have a 2NF violation.
 
 ### 5.3.3 Third Normal Form (3NF)
 A table (relation) is in third normal form (3NF) when it meets the definition of 2NF, plus, the following criterion:
