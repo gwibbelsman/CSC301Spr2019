@@ -53,12 +53,7 @@ The current PK is a composite key made up of `RoomNum` and `Block`. The `RoomPho
 
 The solution is to split rooms into their own table, remove `RoomPhoneNum` from this table. `RoomNum` can be a foreign key (column in common) back to the other table.
 
-#### 5.3.2.2 2NF Example 2: yoga poses and playlists
-In this example, we have a relation that has a synthetic primary key, called `ID`. However, there is also another candidate key, comprised of: `playlist_id`, `order`, `pose_id`. The table violates 2NF because `pose_name` is dependent on only one column of that candidate key (`pose_name` is dependent on/determined by `pose_id`).
-
-![2nf violation 5.26](https://github.com/megansquire/CSC301Spr2019/blob/master/images/5.26.png)
-
-#### 5.3.2.2 2NF Example 3: dogs and owners
+#### 5.3.2.2 2NF Example 2: dogs and owners
 
 ![2nf violation 5.45](https://github.com/megansquire/CSC301Spr2019/blob/master/images/5.45.png)
 
@@ -79,6 +74,11 @@ In the example below, `MID` is the PK for the member table. The `CompLoc` column
 In the example below, the PK is `ID`. The column called `bank` lists the names of the banks, and it is dependent on a non-key column (`bank_code_no`). To make this 3NF we have to split bank details out into their own table. [image credit](http://www.gitta.info/LogicModelin/en/html/DataConsiten_Norm3NF.html)
 
 ![3nf violation 5.28](https://github.com/megansquire/CSC301Spr2019/blob/master/images/5.28.png)
+
+#### 5.3.3.2 3NF Example 3: yoga poses and playlists
+In this example, we have a relation that has a synthetic primary key, called `ID`. However, there is also another candidate key, comprised of: `playlist_id`, `order`. The table violates 3NF because `pose_name` is dependent on another non-key column (`pose_name` is dependent on/determined by `pose_id`).
+
+![3nf violation 5.26](https://github.com/megansquire/CSC301Spr2019/blob/master/images/5.26.png)
 
 #### 5.3.3.3 Example
 In the example below, the only two columns are `book_id` and `author_id`, and both columns comprise the PK (a composite PK). There are no other columns, and no other possible candidate keys. Therefore, this table is automatically in 3NF.
